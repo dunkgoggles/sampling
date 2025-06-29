@@ -40,30 +40,72 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+This survey aims to capture current opinions and priorities among Canadian voters to guide final-stage campaign decisions for my party. By understanding voter concerns, political leanings, and views on party leadership, we can refine messaging and outreach efforts to solidify support, particularly among undecided and swing voters.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+- Target population: All eligible voters in Canada who are 18 years of age or older and are likely to vote in the upcoming federal election.
+
+- Sampling frame: A national database of registered voters or a comprehensive panel of Canadian residents maintained by a reputable survey firm, which includes demographic and regional diversity 
+
+- Sampling units: Individual voters selected from the sampling frame (e.g., using stratified random sampling or quota sampling to ensure representation)
+
+- Observational units: The same individual voters who are surveyed and whose responses are analyzed to draw conclusions about political preferences and priorities.
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What are the top three issues that will influence your vote in the upcoming federal election?
+(Select up to 3)
+☐ Cost of living
+☐ Healthcare
+☐ Climate change
+☐ Housing affordability
+☐ Taxes
+☐ Jobs and the economy
+☐ National security
+☐ Indigenous reconciliation
+☐ Immigration
+☐ Other: _________
+
+2. How satisfied are you with the way our party has addressed these issues so far?
+(5-point Likert scale: Very dissatisfied → Very satisfied)
+
+3. How likely are you to vote for our party in the upcoming election?
+(Likert scale: Definitely will not → Definitely will)
+
+4. Have you been contacted by our party (e.g., canvass, call, email) during this campaign?
+☐ Yes
+☐ No
+☐ Not sure
+
+5. Where do you primarily get your political news and information?
+☐ Television
+☐ Online news websites
+☐ Social media
+☐ Word of mouth
+☐ Podcasts/radio
+☐ Print newspapers
+☐ Other: _________
+
+6. Have your political views changed during this election campaign? If so, what influenced that change?
+☐ Yes — major change
+☐ Yes — minor change
+☐ No change
+☐ Prefer not to say
+
+7. Do you feel our party’s policies have been communicated clearly during the campaign?
+(Likert scale: Not at all clear → Very clear)
+
+8. What concerns, if any, do you have about our party’s platform or leadership?
+(Open-ended)
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +113,50 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+Sample type: Cross-sectional, probability-based sample drawn from the general population aged 15+ in the 10 Canadian provinces
+
+Sample size: Approximately 16,149 respondents aged 15+
+
+Target population: Non‑institutionalized residents of the 10 provinces aged 15+, excluding Yukon, Nunavut, NWT, and institutions
+
+Sampling frame: Telephone numbers available from Census, administrative sources, and dwelling frame 
+
+Survey modes: Combined telephone interviews and newly introduced self-administered online questionnaires in 2018
+
+Timeline: Fielded from September 4 to December 28, 2018
+
+Overall response: 41.9% **Note: alternative sources mention ~59.5% in 2018—this may reflect different calculation methods or definitions
+
+Weights: Person-level weight (WGHT_PER) for national representativeness
+Post-stratification to align with age-sex province benchmarks; adjustments for non-response
+Bootstrap replicate weights provided to compute design-based variance
+
+Data processing: CATI data editing - Real-time checks during interviews 
+Income data: Linked to 2017 tax data (T1) for 81.9% respondents, missing values are imputed
+
+Sampling error: Addressed via bootstrap variance estimation
+
+Coverage errors: Exclusion of those without phones; addressed via weighting
+
+Mode changes: Introduction of online mode could pose a potential break in comparability with earlier data
+
+Geographical/institutional exclusions: No data from territories or institutional residents.
+
+Limitations: 
+Comparability: 2018 results not directly comparable with prior waves due to substantial methodological changes (like the introduction of the online mode) 
+
+Residual bias: Despite adjustments, some populations (e.g., unreachable households) may remain underrepresented
+
+Response definition variance: Different response rate calculations across sources—interpret carefully
+
+Sources: 
+Public Use Microdata File Documentation: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234&utm_source=chatgpt.com
+
+Statistics Canada summary: https://www150.statcan.gc.ca/n1/pub/75-006-x/2021001/article/00002-eng.htm?utm_source=chatgpt.com
+
+Questionnaire & codebook (bilingual PDF): https://abacus.library.ubc.ca/dataset.xhtml%3Bjsessionid%3D825124265ceb71f248d799403611?fileAccess=&fileSortField=name&fileSortOrder=desc&fileTypeGroupFacet=%22Document%22&persistentId=hdl%3A11272.1%2FAB2%2FGBFDYG&q=&version=&utm_source=chatgpt.com
+
+
 ```
 
 ## Rubric
